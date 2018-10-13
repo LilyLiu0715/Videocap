@@ -1,4 +1,5 @@
 # Videocap
+
 import cv2
 vidcap = cv2.VideoCapture("/Users/lilyliu/Documents/ResearchProject/video/video_test.avi")
 success,image = vidcap.read()
